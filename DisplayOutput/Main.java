@@ -12,20 +12,30 @@ public class Main {
         System.out.println("Enter your first name");
         fname = input.next();
 
-        int length, width, area;
+        System.out.println(2+3 *5);
+        System.out.println(  (2+3) *5);
+
+
+        double x = 5.0, y = 2;
+
+        System.out.println(x/y);
+
         System.out.println("Enter your salary");
         salary = input.nextFloat();
         net_salary = salary - (salary * 0.10f);
-
-        System.out.println("Enter rectangle length");
-        length = input.nextInt();
-        System.out.println("Enter rectangle width");
-        width = input.nextInt();
-        area = length * width ;
-        System.out.println(area);
-        System.out.printf("The Rectangle area is %d",area);
+        int i = 9, j = 2;
+        // System.out.println( (float) i/j);
+        //i++;
+        //j--;
 
         System.out.printf("your Net salary is %f",net_salary);
+        //i+=5;
+        //j*=5;
+        System.out.println(i);
+        System.out.println(j);
+
+        System.out.println(++i * --j * 2);
+
     }
 
 }
